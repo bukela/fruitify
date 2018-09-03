@@ -4,7 +4,7 @@
 
 
     $juju = new Juicer();
-    $juju->squeezing();
+    $juju->checkContainer();
 
     // $appa = new Apple();
     // echo $appa->name;

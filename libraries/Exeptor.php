@@ -1,8 +1,8 @@
 <?php
     class Exeptor {
-        public static function checkFull($number) {
+        public static function checkFull($weight) {
             try {
-                    if ($number > 30) {
+                    if ($weight > 30) {
                     throw new Exception('Juicer capacity overload'); 
                 }
             }
